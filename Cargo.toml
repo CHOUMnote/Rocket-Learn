@@ -1,0 +1,23 @@
+[package]
+name = "rocket-learn"
+version = "0.1.0"
+edition = "2021"
+description = """
+Learn Rust web framework!!!
+"""
+
+[dependencies]
+rand = "0.8.4"
+time = { version = "0.3", features = ["macros", "parsing"] }
+serde = { version = "1.0", features = ["derive"] }
+
+[dependencies.rocket]
+version = "0.5.0"
+
+[dependencies.rocket_contrib]
+version = "0.4.4"
+features = ["tera_templates", "json"]
+
+[dependencies.tokio]
+version = "1.6.1"
+features = ["fs", "io-std", "io-util", "rt-multi-thread", "sync", "signal", "macros"]

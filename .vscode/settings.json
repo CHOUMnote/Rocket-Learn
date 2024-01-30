@@ -1,0 +1,11 @@
+{
+    "editor.inlayHints.fontFamily": "Bold",
+    "editor.inlayHints.fontSize": 18,
+  
+    "workbench.colorCustomizations": {
+      "editorInlayHint.foreground": "#868686f0",
+      "editorInlayHint.background": "#3d3d3d48",
+      "editorInlayHint.typeForeground": "#40ff40dd",
+      "editorInlayHint.parameterForeground": "#40ff40dd",
+    }
+  }
